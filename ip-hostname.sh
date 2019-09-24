@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Declaring variables below
 PIP=$(curl -sL http://169.254.169.254/latest/meta-data/public-ipv4/)
 PVIP=$(curl -sL http://169.254.169.254/latest/meta-data/local-ipv4/)
 PVHNAME=$(curl -sL http://169.254.169.254/latest/meta-data/hostname/)
